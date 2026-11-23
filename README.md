@@ -1,5 +1,7 @@
 # kickstart.nvim
 
+This fork adds [custom plugins](lua/custom/plugins/) to the upstream Kickstart configuration. Start with the [Harpoon configuration](lua/custom/plugins/harpoon.lua) for file navigation or [Spectre](lua/custom/plugins/spectre-search-and-replace.lua) for project-wide replacement.
+
 ## Introduction
 
 A starting point for Neovim that is:
@@ -236,4 +238,3 @@ sudo dnf install -y gcc make git ripgrep fd-find unzip neovim
 sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 ```
 </details>
-
